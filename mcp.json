@@ -1,0 +1,12 @@
+{
+  "mcp": {
+    "local-tools": {
+      "type": "stdio",
+      "command": "/Users/fepozopo/.local/bin/codebase-memory-mcp",
+      "args": [],
+      "enabled": true,
+      "required": false,
+      "environment": {}
+    }
+  }
+}

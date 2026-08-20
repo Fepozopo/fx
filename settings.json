@@ -1,0 +1,24 @@
+{
+  "input_appearance": "tint",
+  "update_channel": "dev",
+  "statusLine": { "context": true, "session": true },
+  "model": "openai/gpt-5.6-terra",
+  "effort": "high",
+  "fast_mode": false,
+  "notifications": {
+    "turn_end": false,
+    "attention_required": false,
+    "max": false
+  },
+  "permission_mode": "ask",
+  "permission": {
+    "*": "allow",
+    "bash": {
+      "git add *": "deny",
+      "git commit *": "deny",
+      "git push *": "deny",
+      "rm *": "ask"
+    },
+    "delete": { "*": "ask" }
+  }
+}

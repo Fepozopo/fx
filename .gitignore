@@ -1,0 +1,5 @@
+/backups/
+/sessions/
+/history.jsonl
+/history.lock
+/settings.lock
