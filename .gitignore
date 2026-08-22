@@ -1,5 +1,8 @@
-/backups/
-/sessions/
-/history.jsonl
-/history.lock
-/settings.lock
+auth.lock
+backups/
+chatgpt-auth.json
+chatgpt-auth.lock
+sessions/
+history.jsonl
+history.lock
+settings.lock

@@ -1,10 +1,12 @@
 {
   "input_appearance": "tint",
   "update_channel": "dev",
-  "statusLine": { "context": true, "session": true },
+  "statusLine": { "context": true, "session": true, "workspace": true },
   "model": "openai/gpt-5.6-terra",
   "effort": "high",
   "fast_mode": false,
+  "provider": "codex",
+  "codex_model": "gpt-5.6-terra",
   "notifications": {
     "turn_end": false,
     "attention_required": false,
