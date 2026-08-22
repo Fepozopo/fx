@@ -6,3 +6,6 @@ sessions/
 history.jsonl
 history.lock
 settings.lock
+usage-recovery/
+usage.jsonl
+usage.lock
