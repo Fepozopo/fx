@@ -6,7 +6,7 @@
   "effort": "high",
   "fast_mode": false,
   "provider": "codex",
-  "codex_model": "gpt-5.6-terra",
+  "codex_model": "gpt-5.6-luna",
   "notifications": {
     "turn_end": false,
     "attention_required": false,
@@ -15,12 +15,12 @@
   "permission_mode": "ask",
   "permission": {
     "*": "allow",
+    "delete_file": { "*": "ask" },
     "bash": {
       "git add *": "deny",
       "git commit *": "deny",
       "git push *": "deny",
       "rm *": "ask"
-    },
-    "delete": { "*": "ask" }
+    }
   }
 }
