@@ -2,6 +2,7 @@ auth.lock
 backups/
 chatgpt-auth.json
 chatgpt-auth.lock
+codex.json
 sessions/
 history.jsonl
 history.lock
