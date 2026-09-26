@@ -3,13 +3,12 @@
   "statusLine": { "context": true, "session": true, "workspace": true },
   "theme": "catppuccin-mocha",
   "provider": "codex",
-  "model": "openai/gpt-6-sol",
+  "models": { "codex": "gpt-6-luna" },
   "effort": "high",
   "fast_mode": false,
-  "models": { "codex": "gpt-6-sol" },
   "fast_mode_model_bound": true,
   "notifications": {
-    "turn_end": true,
+    "turn_end": false,
     "attention_required": true,
     "max": false
   },
