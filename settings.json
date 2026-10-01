@@ -3,7 +3,7 @@
   "statusLine": { "context": true, "session": true, "workspace": true },
   "theme": "catppuccin-mocha",
   "provider": "codex",
-  "models": { "codex": "gpt-6-luna" },
+  "models": { "codex": "gpt-6.1-sol" },
   "effort": "high",
   "fast_mode": false,
   "fast_mode_model_bound": true,
