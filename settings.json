@@ -3,10 +3,11 @@
   "statusLine": { "context": true, "session": true, "workspace": true },
   "theme": "catppuccin-mocha",
   "provider": "codex",
-  "models": { "codex": "gpt-6.1-sol" },
+  "models": { "codex": "gpt-6-luna" },
   "effort": "high",
   "fast_mode": false,
   "fast_mode_model_bound": true,
+  "ultrafast_mode": false,
   "notifications": {
     "turn_end": false,
     "attention_required": true,
@@ -17,6 +18,13 @@
     "*": "allow",
     "delete_file": { "*": "ask" },
     "bash": {
+      "*": "allow",
+      "git add *": "deny",
+      "git commit *": "deny",
+      "git push *": "deny",
+      "rm *": "ask"
+    },
+    "shell": {
       "*": "allow",
       "git add *": "deny",
       "git commit *": "deny",
