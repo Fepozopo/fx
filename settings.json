@@ -23,13 +23,6 @@
       "git commit *": "deny",
       "git push *": "deny",
       "rm *": "ask"
-    },
-    "shell": {
-      "*": "allow",
-      "git add *": "deny",
-      "git commit *": "deny",
-      "git push *": "deny",
-      "rm *": "ask"
     }
   }
 }
