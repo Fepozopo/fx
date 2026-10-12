@@ -1,16 +1,10 @@
 {
   "auto_upgrade": false,
   "update_channel": "stable",
-  "statusLine": {
-    "context": true,
-    "session": true,
-    "workspace": true
-  },
+  "statusLine": { "context": true, "session": true, "workspace": true },
   "theme": "catppuccin-mocha",
   "provider": "codex",
-  "models": {
-    "codex": "gpt-6.1-sol"
-  },
+  "models": { "codex": "gpt-6-luna" },
   "effort": "high",
   "fast_mode": false,
   "fast_mode_model_bound": true,
@@ -23,9 +17,7 @@
   "permission_mode": "ask",
   "permission": {
     "*": "allow",
-    "delete_file": {
-      "*": "ask"
-    },
+    "delete_file": { "*": "ask" },
     "bash": {
       "*": "allow",
       "git add *": "deny",
