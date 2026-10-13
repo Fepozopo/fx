@@ -1,5 +1,5 @@
 {
-  "auto_upgrade": false,
+  "auto_upgrade": true,
   "update_channel": "stable",
   "statusLine": { "context": true, "session": true, "workspace": true },
   "theme": "catppuccin-mocha",
