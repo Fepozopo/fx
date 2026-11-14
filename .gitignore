@@ -14,3 +14,4 @@ usage-recovery/
 usage.jsonl
 usage.lock
 provider-versions/
+mcp-credentials/
